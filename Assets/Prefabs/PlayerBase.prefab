@@ -1,0 +1,310 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1520875042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1520875046}
+  - component: {fileID: 1520875045}
+  - component: {fileID: 1520875044}
+  - component: {fileID: 1520875043}
+  m_Layer: 0
+  m_Name: Spine GameObject (skeleton)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1520875046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520875042}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.03, z: 0}
+  m_LocalScale: {x: 0.39737737, y: 0.39737737, z: 1.3245912}
+  m_Children: []
+  m_Father: {fileID: 562242132158858419}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1520875045
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520875042}
+  m_Mesh: {fileID: 0}
+--- !u!23 &1520875044
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520875042}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ab488a3eb6a0e47b29ff01ea543f8314, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &1520875043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520875042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeletonDataAsset: {fileID: 11400000, guid: c812f7469facb4b8a91b6e131d680f90, type: 2}
+  initialSkinName: default01
+  initialFlipX: 0
+  initialFlipY: 0
+  separatorSlotNames: []
+  zSpacing: 0
+  useClipping: 1
+  immutableTriangles: 0
+  pmaVertexColors: 1
+  clearStateOnDisable: 0
+  tintBlack: 0
+  singleSubmesh: 0
+  addNormals: 0
+  calculateTangents: 0
+  maskInteraction: 0
+  maskMaterials:
+    materialsMaskDisabled: []
+    materialsInsideMask: []
+    materialsOutsideMask: []
+  disableRenderingOnOverride: 1
+  _animationName: 03 watershotgun idle
+  loop: 1
+  timeScale: 1
+--- !u!1 &562242132158858423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 562242132158858419}
+  - component: {fileID: 562242132158858416}
+  - component: {fileID: 562242132158858412}
+  - component: {fileID: 562242132158858413}
+  - component: {fileID: 1461676080}
+  - component: {fileID: 2135473481}
+  - component: {fileID: 1461676075}
+  m_Layer: 0
+  m_Name: PlayerBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &562242132158858419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562242132158858423}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.93, y: 1.31, z: -5.35}
+  m_LocalScale: {x: 0.75495, y: 0.75495, z: 0.75495}
+  m_Children:
+  - {fileID: 1520875046}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &562242132158858416
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562242132158858423}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.24845107
+  m_Height: 1.2336354
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.36067414, z: 0}
+--- !u!54 &562242132158858412
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562242132158858423}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!114 &562242132158858413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562242132158858423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d510120148c43ceb6673535da44c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {x: 3, y: 0, z: 2}
+  TimeToAchieveFullSpeed: 1
+  speedCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PercentOfVelocityToRun: 0.8
+--- !u!114 &1461676080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562242132158858423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34b84b59c57b94ae0ac1a5ddd6ad3663, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultWeapon: 2
+  actualWeapon: {fileID: 0}
+  ammoLeft: 0
+--- !u!114 &2135473481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562242132158858423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52c5f25a9e6874d7095e6cd52baa33c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon: 0
+  skeletonAnimation: {fileID: 1520875043}
+  actualState: 0
+  AnimationList:
+  - animation: {fileID: 11400000, guid: 058476a603e1244609b4be2bd58778e1, type: 2}
+    weapon: 0
+    state: 4
+  - animation: {fileID: 11400000, guid: 9cec25135b5034e218cdf1ce10a4ae26, type: 2}
+    weapon: 0
+    state: 2
+  - animation: {fileID: 11400000, guid: 2691921d2e0ec4331a39c6c8d6e32257, type: 2}
+    weapon: 0
+    state: 1
+  - animation: {fileID: 11400000, guid: f5d8838eac75d4b55bf44dcf54c4e0d9, type: 2}
+    weapon: 0
+    state: 3
+  - animation: {fileID: 11400000, guid: 633952d2748a449ea9d1d6ec79c16606, type: 2}
+    weapon: 0
+    state: 0
+  - animation: {fileID: 11400000, guid: 190f9811492d3451c89672b70be55534, type: 2}
+    weapon: 1
+    state: 3
+  - animation: {fileID: 11400000, guid: bd36b3f1e1ad5427c9f018a49c0edd0f, type: 2}
+    weapon: 1
+    state: 0
+  - animation: {fileID: 11400000, guid: 91285a4c33afe4668a1fcda5e656706f, type: 2}
+    weapon: 1
+    state: 4
+  - animation: {fileID: 11400000, guid: c7af480dc9d37407c9ed22afe62752b6, type: 2}
+    weapon: 1
+    state: 1
+  - animation: {fileID: 11400000, guid: 5604e545351f8412ba5035c1b204eaf5, type: 2}
+    weapon: 1
+    state: 2
+  - animation: {fileID: 11400000, guid: 910298294d69b42efbca5ef4e55a6c19, type: 2}
+    weapon: 2
+    state: 0
+  - animation: {fileID: 11400000, guid: 10705f013decb4a2daf7140d85695a5e, type: 2}
+    weapon: 2
+    state: 3
+  - animation: {fileID: 11400000, guid: 640eb74ee49f5416a932ef69fb1aea86, type: 2}
+    weapon: 2
+    state: 4
+  - animation: {fileID: 11400000, guid: 6fca715bb75264845a35c41bdcd5f5da, type: 2}
+    weapon: 2
+    state: 1
+  - animation: {fileID: 11400000, guid: bc9a8738bd3004332be4bf64558f8ad7, type: 2}
+    weapon: 2
+    state: 2
+--- !u!114 &1461676075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562242132158858423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c81a56955caa40c4a11b333b2a5a380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zombieName: 0
